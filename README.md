@@ -1,0 +1,3 @@
+# SQL Script Collection 🚀
+
+Explore this repository to find a curated collection of SQL scripts designed to streamline and enhance database operations. Whether you're a database administrator, developer, or data enthusiast, these scripts cover a range of tasks, from data querying and manipulation to database maintenance. Boost your SQL skills and efficiency by leveraging this comprehensive set of scripts. Contributions and feedback are welcome
