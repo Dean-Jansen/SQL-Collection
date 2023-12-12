@@ -1,0 +1,2 @@
+SELECT
+    NEWID() AS UUID;
