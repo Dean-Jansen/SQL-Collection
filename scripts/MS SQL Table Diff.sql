@@ -1,7 +1,3 @@
-# Table Diff replication between MS SQL database tables.
-
-```SQL
-
 SET QUOTED_IDENTIFIER ON 
 
 DECLARE @TableNames as table (

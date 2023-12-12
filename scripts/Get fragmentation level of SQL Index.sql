@@ -1,5 +1,3 @@
-
-```SQL
 SELECT dbschemas.[name] as 'Schema', 
 dbtables.[name] as 'Table', 
 dbindexes.[name] as 'Index',
@@ -13,4 +11,3 @@ INNER JOIN sys.indexes AS dbindexes ON dbindexes.[object_id] = indexstats.[objec
 AND indexstats.index_id = dbindexes.index_id
 WHERE indexstats.database_id = DB_ID() --and dbtables.name = 'tblDIP_AttributeValues'
 ORDER BY indexstats.avg_fragmentation_in_percent desc
-```

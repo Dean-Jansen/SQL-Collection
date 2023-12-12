@@ -1,6 +1,3 @@
-# This will update Indexes, Stats and shrink DB for all Tables and Databases
-
-```SQL
 Set quoted_identifier off
 use master
 go

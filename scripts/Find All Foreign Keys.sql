@@ -1,4 +1,3 @@
-```SQL
 select 
  j.name as 'JobName',
  s.step_id as 'Step',
@@ -18,4 +17,3 @@ where j.name like 'LPD-SQLstaging%'
 and s.step_Name = 'STG_Port_Product_Target'
 
 order by JobName, RunDateTime desc
-```
